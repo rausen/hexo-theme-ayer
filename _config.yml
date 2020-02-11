@@ -4,17 +4,15 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
-  关于我: /2019/about
+  关于我: /about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
 subtitle:
   enable: true  # 是否开启动效
-  text: 面朝大海，春暖花开  # 显示的文字
-  text2: 愿你一生努力，一生被爱   # 滚动播放，如果不需要可以留空
-  text3: 想要的都拥有，得不到的都释怀  # 最多支持三段文字
+  text: 真是的，柯南跑到哪里去了嘛  # 显示的文字
+  text2:   # 滚动播放，如果不需要可以留空
+  text3:   # 最多支持三段文字
   startDelay: 0   # 延迟时间
   typeSpeed: 200  # 打字速度
   loop: true  # 是否循环
@@ -29,7 +27,7 @@ logo: /images/ayer-side.svg
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover1.jpg  # images目录下附送多张美图，可更换
+  path: /images/cover4.jpg  # images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条  
@@ -71,11 +69,11 @@ word_count:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '请我喝杯咖啡吧~'
+reward_wording: '请我喝杯奶茶吧~'
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: /images/alipay.jpg
+alipay: /images/alipay.png
 # 微信二维码图片地址
-weixin: /images/wechat.jpg
+weixin: /images/wechat.png
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -135,7 +133,7 @@ google_analytics: ''
 baidu_analytics: ''
 
 # 数学公式
-mathjax: false
+mathjax: true
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
 since: 2015
